@@ -18,13 +18,12 @@ export class SearchFilterPipe implements PipeTransform {
 
   args = args.toLowerCase();
   // debugger;
-  return value.filter(function(item:any){
-    return JSON.stringify(item)
+  return value.filter(function(item:any) {
+    // return JSON.stringify(item)
+    return item.firstName
     .toLowerCase()
     .includes(args);
   });
-
-
    }
 
 }

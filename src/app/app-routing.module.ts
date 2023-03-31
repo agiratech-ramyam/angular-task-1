@@ -5,7 +5,6 @@ import { CardsComponent } from './cards/cards.component';
 const routes: Routes = [
   { path: '', component: CardsComponent },
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

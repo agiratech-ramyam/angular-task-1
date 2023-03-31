@@ -1,0 +1,57 @@
+.mat-grid-list {
+  margin-left: 115px;
+  margin-right: 115px;
+}
+mat-card.mat-mdc-card.mdc-card.example-card {
+  width: 82%;
+  height: 189px;
+}
+.mat-mdc-card-content:last-child {
+  padding-bottom: 10px;
+  line-height: 31px;
+}
+/* .mat-mdc-form-field {
+  margin-left: 813px;
+  margin-top: 27px;
+} */
+.mat-icon {
+  -webkit-user-select: none;
+  user-select: none;
+  background-repeat: no-repeat;
+  display: inline-block;
+  fill: currentColor;
+  height: 21px;
+  width: 24px;
+  overflow: hidden;
+  padding-left: 156px;
+}
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+}
+.mat-mdc-form-field{
+  padding-bottom: 0px;
+}
+/* .search .mat-mdc-form-field .mat-mdc-text-field-wrapper .mat-mdc-form-field-flex .mat-mdc-form-field-infix  {
+  height: 56px !important;
+  background-color: aquamarine;
+
+}
+.mat-mdc-form-field-infix{
+  background-color: green;
+}
+.mat-mdc-form-field .mat-mdc-form-field-infix {
+  padding-bottom: 0px !important;
+  background-color: red;
+} */
+.mat-mdc-form-field[_ngcontent-ifs-c13] {
+  padding-bottom: 0px !important;
+  width: 20% !important;
+}
+
+::ng-deep .mat-mdc-text-field-wrapper.mdc-text-field--outlined .mat-mdc-form-field-infix {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}

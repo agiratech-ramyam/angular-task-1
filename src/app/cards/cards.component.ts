@@ -15,7 +15,6 @@ import { Observable } from 'rxjs';
 })
 export class CardsComponent {
 
-
    term!: string;
   filterData = [
     {
@@ -57,4 +56,5 @@ export class CardsComponent {
     }
     this.pageSlice = this.filterData.slice(startIndex,endIndex);
   }
+
 }

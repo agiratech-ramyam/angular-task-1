@@ -5,6 +5,14 @@
       <input [(ngModel)]="term" matInput placeholder="ramya" />
       <mat-icon >search</mat-icon>
     </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Firstname</mat-label>
+      <mat-select [(ngModel)]="term">
+        <mat-option *ngFor="let item of filterData" [value]="item.firstName">
+          {{item.firstName}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
   </div>
   <div class="list">
     <mat-grid-list cols="3" rowHeight="200px" gutterSize="70px">
